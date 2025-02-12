@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <livro id ="lv_4005_nd">
+        <titulo>O Principezinho</titulo>
+        <autor>Antoine de Saint-Exupéry</autor>
+        <editor>Editorial Presença</editor>
+    </livro>
+    <revista_cientifica> id = "rc_208_2008 ano_publ ="2008">
+        <titulo>Focused Access to XML Documents</titulo>
+        <volume>4862<numero>1</numero></volume>
+    </revista_cientifica>
+    <outros id = "tese_142_2020" curso = "curso_35">
+        <autor>João Silva</autor>
+        <titulo>A influência da Covid-19 no sistema de saúde</titulo>
+            <ano>2020</ano>
+            <paginas>100</paginas>
+    </outros>
+</biblioteca>

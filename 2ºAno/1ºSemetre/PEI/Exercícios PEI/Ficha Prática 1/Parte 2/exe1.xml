@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <tittle>A Tasca da estg</tittle>
+    <pizza>
+        <name>veggie-pizza</name>
+        <details>
+            <base>tiny</base>
+            <toppings>
+                <topping>spinach</topping>
+                <topping>cheese</topping>
+                <topping>tomato sauce</topping>
+            </toppings>
+        </details>
+        <precarious>
+            <price unit="€">
+                <value>6</value>
+                <size>S</size>
+            </price>
+            <price unit="€">
+                <value>8</value>
+                <size>M</size>
+            </price>
+            <price unit="€">
+                <value>12</value>
+                <size>B</size>
+            </price>
+        </precarious>
+    </pizza>
+    <pizza>
+        <name>Mozarella-pizza</name>
+        <details>
+            <base>crispy</base>
+            <toppings>
+                <topping>cheese</topping>
+                <topping>Oregano</topping>
+                <topping>Onion sauce</topping>
+            </toppings>
+        </details>
+        <precarious>
+            <price unit="€">
+                <value>7</value>
+                <size>S</size>
+            </price>
+            <price unit="€">
+                <value>8.50</value>
+                <size>M</size>
+            </price>
+            <price unit="€">
+                <value>13</value>
+                <size>B</size>
+            </price>
+        </precarious>
+    </pizza>
+    <pizza>
+        <name>Meat-pizza</name>
+        <details>
+            <base>lean</base>
+            <toppings>
+                <topping>chicken</topping>
+                <topping>cheese</topping>
+                <topping>tomato sauce</topping>
+            </toppings>
+        </details>
+        <precarious>
+            <price unit="€">
+                <value>6</value>
+                <size>S</size>
+            </price>
+            <price unit="€">
+                <value>9</value>
+                <size>M</size>
+            </price>
+            <price unit="€">
+                <value>12.50</value>
+                <size>B</size>
+            </price>
+        </precarious>
+    </pizza>
+    <pizza>
+        <name>ESTG-pizza</name>
+        <details>
+            <base>tiny</base>
+            <toppings>
+                <topping>spinach</topping>
+                <topping>cheese</topping>
+                <topping>tomato sauce</topping>
+                <topping>chicken</topping>
+            </toppings>
+        </details>
+        <precarious>
+            <price unit="€">
+                <value>6</value>
+                <size>S</size>
+            </price>
+            <price unit="€">
+                <value>8.50</value>
+                <size>M</size>
+            </price>
+            <price unit="€">
+                <value>15</value>
+                <size>B</size>
+            </price>
+        </precarious>
+    </pizza>
+</data>

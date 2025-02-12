@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<other_emails>
+<email>
+    <type>Pessoal</type>
+    <to>Tove@gmail.com</to>
+    <from>Jani@gmail.com</from>
+    <date>23/09/2024</date>
+    <heading>Reminder</heading>
+    <body>Don’t forget me this weekend!</body>
+</email>
+<email>
+    <type>Professional</type>
+    <to>Tove@gmail.com</to>
+    <from>Jani@gmail.com</from>
+    <date>23/09/2024</date>
+    <type>Pessoal,</type>
+    <heading>Reminder</heading>
+    <body>Don’t forget me this weekend!</body>
+</email>
+</other_emails>

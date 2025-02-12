@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <ingredient>
+        <name>Spinach</name>
+        <category>Vegetal</category>
+        <nutricional_details>
+            <calories unit="Kcal">18</calories>
+            <portion unit="g">100</portion>
+        </nutricional_details>
+    </ingredient>
+    <ingredient>
+        <name>Cheese</name>
+        <category>Dairy</category>
+        <nutricional_details>
+            <calories unit="Kcal">25</calories>
+            <portion unit="g">100</portion>
+        </nutricional_details>
+    </ingredient>
+    <ingredient>
+        <name>Tomato sauce</name>
+        <category>Sauce</category>
+        <nutricional_details>
+            <calories unit="Kcal">40</calories>
+            <portion unit="g">100</portion>
+        </nutricional_details>
+    </ingredient>
+    <ingredient>
+        <name>Oregano</name>
+        <category>Herb</category>
+        <nutricional_details>
+            <calories unit="Kcal">45</calories>
+            <portion unit="g">100</portion>
+        </nutricional_details>
+    </ingredient>
+    <ingredient>
+        <name>Chicken</name>
+        <category>Meat</category>
+        <nutricional_details>
+            <calories unit="Kcal">32</calories>
+            <portion unit="g">100</portion>
+        </nutricional_details>
+    </ingredient>
+    <ingredient>
+        <name>Onion Sauce</name>
+        <category>sauce</category>
+        <nutricional_details>
+            <calories unit="Kcal">55</calories>
+            <portion unit="g">100</portion>
+        </nutricional_details>
+    </ingredient>
+    <ingredient>
+        <name>Pasta</name>
+        <category>Pasta</category>
+        <nutricional_details>
+            <calories unit="Kcal">43</calories>
+            <portion unit="g">100</portion>
+        </nutricional_details>
+    </ingredient>
+</data>
