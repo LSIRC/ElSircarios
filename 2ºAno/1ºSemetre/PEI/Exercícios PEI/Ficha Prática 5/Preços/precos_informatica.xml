@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<produtos>
+    <produto>
+        <nome>pen</nome>
+        <preco>12.90</preco>
+        <desconto>10</desconto>
+    </produto>
+    <produto>
+        <nome>disco</nome>
+        <preco>95.00</preco>
+        <desconto>15</desconto>
+    </produto>
+    <produto>
+        <nome>tablet</nome>
+        <preco>121.60</preco>
+        <desconto>20</desconto>
+    </produto>
+    <produto>
+        <nome>rato PC</nome>
+        <preco>22.00</preco>
+    </produto>
+    <produto>
+        <nome>webcam</nome>
+        <preco>32.50</preco>
+        <desconto>3</desconto>
+    </produto>
+</produtos>

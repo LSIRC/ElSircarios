@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+            targetNamespace="http://www.HospitalDaEstg.pt/medico"
+            xmlns="http://www.HospitalDaEstg.pt/medico"
+            elementFormDefault="qualified">  
+            <!-- completar -->
+    
+    <xs:complexType name="nomeTipo">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="cedula">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:positiveInteger">
+                            <xs:pattern value="\d{5,6}"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:simpleType name="especialidadeTipo">
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="cardiologia"/>
+                <xs:enumeration value="ortopedia"/>
+                <xs:enumeration value="pediatria"/>
+                <xs:enumeration value="estomatologia"/>
+            </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

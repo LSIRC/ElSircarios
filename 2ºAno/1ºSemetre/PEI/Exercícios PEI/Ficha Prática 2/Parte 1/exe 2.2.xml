@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cadeiaDeRestaurantes>
+<restaurante type="italiano">
+    <nome>Mamma mia</nome>
+    <capacidade>50</capacidade>
+    <localidade>Penafiel</localidade>
+    <telefone>255255255</telefone>
+    <email>Mammamia@gmail.com</email>
+</restaurante>
+<restaurante type="japonês">
+    <nome>Mamma mia</nome>
+    <capacidade>50</capacidade>
+    <localidade>Penafiel</localidade>
+    <telefone>255255255</telefone>
+    <email>Mammamia@gmail.com</email>
+</restaurante>
+</cadeiaDeRestaurantes>

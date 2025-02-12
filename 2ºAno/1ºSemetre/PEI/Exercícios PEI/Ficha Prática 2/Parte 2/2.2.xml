@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Website xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation ="exe%202.2.xsd">
+    <Curso>
+        <Titulo>Curso Técnico Superior Profissional em Desenvolvimento para a Web e Dispositivos Móveis</Titulo>
+        <DescricaoCurso>Um diplomado do Curso Técnico Superior Profissional em Desenvolvimento para a Web e Dispositivos Móveis detém as competências técnicas específicas para planear, 
+            analisar, desenhar e desenvolver aplicações para a Web e para dispositivos móveis. Especificamente, um Técnico Superior em Desenvolvimento para a Web e Dispositivos Móveis 
+            será capaz de desenvolver as seguintes atividades:
+        </DescricaoCurso>
+        
+        <Objetivos>
+            <Objetivo>Desenvolver/programar aplicações para a web e para dispositivos móveis</Objetivo>
+            <Objetivo>Elaborar análises de problemas reais, com complexidade variável, de modo a caracterizar o contexto de desenvolvimento de aplicações para a web e dispositivos móveis</Objetivo>
+            <Objetivo>Projetar o desenvolvimento de aplicações em ambiente web e/ou para dispositivos móveis, nomeadamente no que diz respeito ao desenho técnico do sistema</Objetivo>
+            <Objetivo>Desenhar e estruturar conteúdo para aplicações web e/ou aplicações para dispositivos móveis</Objetivo>
+            <Objetivo>Testar, instalar, configurar e distribuir o produto de software para ambiente web ou dispositivos móveis</Objetivo>
+        </Objetivos>
+        
+        <detalhes>
+            <RegimeDeEstudos>Diurno</RegimeDeEstudos>
+            <Coordenador>Fábio André Souto da Silva</Coordenador>
+            <AreaCNAEF>481 Ciências Informáticas</AreaCNAEF>
+            <RegistoDGES>
+                <Numero>R/Cr 214.1/2015</Numero>
+                <Data>12/07/2021</Data>
+            </RegistoDGES>
+            <Locais>
+                <Local>Felgueiras</Local>
+                <Local>Lousada</Local>
+            </Locais>
+            <PublicacaoDiarioRepublica>
+                <NumeroDespacho>N.º Despacho/Portaria: 6843/2021</NumeroDespacho>
+                <Data>12/07/2021</Data>
+            </PublicacaoDiarioRepublica>
+        </detalhes>
+    </Curso>
+</Website>

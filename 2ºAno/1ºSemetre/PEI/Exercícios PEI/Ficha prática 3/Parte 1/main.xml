@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prescricao  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns="http://www.HospitalDaEstg.pt/main"
+             xsi:schemaLocation="http://www.HospitalDaEstg.pt/main main.xsd">
+    
+    <data>2001-03-29</data>
+    <medico>
+        <nome>hugo</nome>
+        <especialidade>cardiologia</especialidade>
+    </medico>
+    <paciente>
+        <nome>margarida</nome>
+        <genero>feminino</genero>
+    </paciente>
+    <medicamentos>
+        <medicamento>
+            <nome>benuron</nome>
+            <dosagem unidade="g">100</dosagem>
+        </medicamento>
+        <medicamento>
+            <nome>paracetamol</nome>
+            <dosagem unidade="mg/mL">100</dosagem>
+        </medicamento>
+    </medicamentos>
+</prescricao>

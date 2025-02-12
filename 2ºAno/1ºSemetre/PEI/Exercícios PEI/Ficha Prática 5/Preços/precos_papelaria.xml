@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<produtos>
+    <produto>
+        <nome>lápis</nome>
+        <preco>0.80</preco>
+        <desconto>6</desconto>
+    </produto>
+    <produto>
+        <nome>caneta</nome>
+        <preco>1.50</preco>
+        <desconto>6</desconto>
+    </produto>
+    <produto>
+        <nome>caderno</nome>
+        <preco>1.90</preco>
+        <desconto>10</desconto>
+    </produto>
+    <produto>
+        <nome>esquadro</nome>
+        <preco>2.00</preco>
+        <desconto>10</desconto>
+    </produto>
+    <produto>
+        <nome>borracha</nome>
+        <preco>0.50</preco>
+        <desconto>5</desconto>
+    </produto>
+</produtos>

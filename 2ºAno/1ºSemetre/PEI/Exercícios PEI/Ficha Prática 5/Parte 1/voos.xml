@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<!--  ============================================  -->
+<!--  AEROPORTOS                                    -->
+<!--  ============================================  -->
+<aeroportos>
+    <aeroporto abreviatura="LHR">
+        <nome>London Heathrow</nome>
+        <taxa>50</taxa>
+    </aeroporto>
+    <aeroporto abreviatura="ZRH">
+        <nome>Zurich</nome>
+        <taxa>120</taxa>
+    </aeroporto>
+    <aeroporto abreviatura="PAR">
+        <nome>Paris</nome>
+        <taxa>80</taxa>
+    </aeroporto>
+    <aeroporto abreviatura="NPL">
+        <nome>North Pole</nome>
+        <taxa>10</taxa>
+    </aeroporto>
+    <aeroporto abreviatura="OPO">
+        <nome>Porto</nome>
+        <taxa>30</taxa>
+    </aeroporto>
+    <aeroporto abreviatura="AMS">
+        <nome>Amsterdam</nome>
+        <taxa>100</taxa>
+    </aeroporto>
+    <aeroporto abreviatura="PRG">
+        <nome>Prague</nome>
+        <taxa>60</taxa>
+    </aeroporto>
+    <aeroporto abreviatura="BDP">
+        <nome>Budapest</nome>
+        <taxa>25</taxa>
+    </aeroporto>
+    <aeroporto abreviatura="MSW">
+        <nome>Moscow</nome>
+        <taxa>35</taxa>
+    </aeroporto>
+    <aeroporto abreviatura="FFT">
+        <nome>Frankfurt</nome>
+        <taxa>110</taxa>
+    </aeroporto>
+</aeroportos>
+<!--  ============================================  -->
+<!--  VOOS                                          -->
+<!--  ============================================  -->
+<voos>
+    <voo id="LH123">
+        <capacidade>220</capacidade>
+        <data>2021-10-12</data>
+        <partida>08:00:00</partida>
+        <chegada>10:00:00</chegada>
+        <origem>LHR</origem>
+        <destino>ZRH</destino>
+    </voo>
+    <voo id="LH234">
+        <capacidade>160</capacidade>
+        <data>2021-09-26</data>
+        <partida>09:00:00</partida>
+        <chegada>13:00:00</chegada>
+        <origem>LHR</origem>
+        <destino>MSW</destino>
+    </voo>
+    <voo id="SQ28">
+        <capacidade>150</capacidade>
+        <data>2021-08-30</data>
+        <partida>10:00:00</partida>
+        <chegada>11:10:00</chegada>
+        <origem>LHR</origem>
+        <destino>AMS</destino>
+    </voo>
+    <voo id="AC1166">
+        <capacidade>130</capacidade>
+        <data>2021-08-30</data>
+        <partida>11:00:00</partida>
+        <chegada>16:00:00</chegada>
+        <origem>LHR</origem>
+        <destino>SPL</destino>
+    </voo>
+    <voo id="AC2410">
+        <capacidade>200</capacidade>
+        <data>2021-08-30</data>
+        <partida>12:00:00</partida>
+        <chegada>14:33:00</chegada>
+        <origem>LHR</origem>
+        <destino>PRG</destino>
+    </voo>
+    <voo id="TP300">
+        <capacidade>200</capacidade>
+        <data>2021-08-30</data>
+        <partida>08:00:00</partida>
+        <chegada>10:20:00</chegada>
+        <origem>LHR</origem>
+        <destino>ZRH</destino>
+    </voo>
+    <voo id="TP190">
+        <capacidade>200</capacidade>
+        <data>2021-08-30</data>
+        <partida>16:00:00</partida>
+        <chegada>10:18:00</chegada>
+        <origem>LHR</origem>
+        <destino>MSW</destino>
+    </voo>
+    <voo id="LH175">
+        <capacidade>200</capacidade>
+        <data>2021-08-15</data>
+        <partida>18:00:00</partida>
+        <chegada>20:10:00</chegada>
+        <origem>LHR</origem>
+        <destino>AMS</destino>
+    </voo>
+    <voo id="LH176">
+        <capacidade>190</capacidade>
+        <data>2021-08-15</data>
+        <partida>17:00:00</partida>
+        <chegada>23:40:00</chegada>
+        <origem>LHR</origem>
+        <destino>SPL</destino>
+    </voo>
+    <voo id="AA620">
+        <capacidade>190</capacidade>
+        <data>2021-08-15</data>
+        <partida>19:00:00</partida>
+        <chegada>22:17:00</chegada>
+        <origem>LHR</origem>
+        <destino>PRG</destino>
+    </voo>
+
+    <voo id="SQ035">
+        <capacidade>80</capacidade>
+        <data>2021-08-30</data>
+        <partida>07:40:00</partida>
+        <chegada>10:00:00</chegada>
+        <origem>FFT</origem>
+        <destino>NPL</destino>
+    </voo>
+    <voo id="FR170">
+        <capacidade>80</capacidade>
+        <data>2021-08-30</data>
+        <partida>08:00:00</partida>
+        <chegada>10:00:00</chegada>
+        <origem>FFT</origem>
+        <destino>ZRH</destino>
+    </voo>
+    <voo id="FR171">
+        <capacidade>100</capacidade>
+        <data>2021-08-30</data>
+        <partida>09:00:00</partida>
+        <chegada>10:00:00</chegada>
+        <origem>FFT</origem>
+        <destino>MSW</destino>
+    </voo>
+    <voo id="FR172">
+        <capacidade>100</capacidade>
+        <data>2021-08-30</data>
+        <partida>10:25:00</partida>
+        <chegada>11:00:00</chegada>
+        <origem>FFT</origem>
+        <destino>AMS</destino>
+    </voo>
+    <voo id="FR173">
+        <capacidade>100</capacidade>
+        <data>2021-08-30</data>
+        <partida>11:40:00</partida>
+        <chegada>12:00:00</chegada>
+        <origem>FFT</origem>
+        <destino>SPL</destino>
+    </voo>
+    <voo id="FR174">
+        <capacidade>100</capacidade>
+        <data>2021-08-30</data>
+        <partida>20:45:00</partida>
+        <chegada>22:00:00</chegada>
+        <origem>FFT</origem>
+        <destino>OPO</destino>
+    </voo>
+    <voo id="TP30">
+        <capacidade>200</capacidade>
+        <data>2021-08-30</data>
+        <partida>15:30:00</partida>
+        <chegada>16:40:00</chegada>
+        <origem>FFT</origem>
+        <destino>NPL</destino>
+    </voo>
+    <voo id="TP31">
+        <capacidade>180</capacidade>
+        <data>2021-08-30</data>
+        <partida>10:20:00</partida>
+        <chegada>17:02:00</chegada>
+        <origem>FFT</origem>
+        <destino>NPL</destino>
+    </voo>
+    <voo id="TP32">
+        <capacidade>180</capacidade>
+        <data>2021-08-30</data>
+        <partida>08:40:00</partida>
+        <chegada>20:02:00</chegada>
+        <origem>FFT</origem>
+        <destino>NPL</destino>
+    </voo>
+    <voo id="TP33">
+        <capacidade>150</capacidade>
+        <data>2021-08-30</data>
+        <partida>12:10:00</partida>
+        <chegada>15:02:00</chegada>
+        <origem>FFT</origem>
+        <destino>MSW</destino>
+    </voo>
+
+    <voo id="TP34">
+        <capacidade>150</capacidade>
+        <data>2021-08-30</data>
+        <partida>08:19:00</partida>
+        <chegada>10:00:00</chegada>
+        <origem>AMS</origem>
+        <destino>ZRH</destino>
+    </voo>
+    <voo id="TP35">
+        <capacidade>150</capacidade>
+        <data>2021-08-30</data>
+        <partida>09:19:00</partida>
+        <chegada>10:00:00</chegada>
+        <origem>AMS</origem>
+        <destino>MSW</destino>
+    </voo>
+    <voo id="SQ95">
+        <capacidade>150</capacidade>
+        <data>2021-08-25</data>
+        <partida>10:19:00</partida>
+        <chegada>12:04:00</chegada>
+        <origem>AMS</origem>
+        <destino>AMS</destino>
+    </voo>
+    <voo id="SQ96">
+        <capacidade>160</capacidade>
+        <data>2021-08-30</data>
+        <partida>11:19:00</partida>
+        <chegada>12:07:00</chegada>
+        <origem>AMS</origem>
+        <destino>SPL</destino>
+    </voo>
+    <voo id="SQ97">
+        <capacidade>160</capacidade>
+        <data>2021-08-30</data>
+        <partida>13:18:00</partida>
+        <chegada>16:20:00</chegada>
+        <origem>AMS</origem>
+        <destino>PRG</destino>
+    </voo>
+    <voo id="SQ98">
+        <capacidade>160</capacidade>
+        <data>2021-08-30</data>
+        <partida>14:00:00</partida>
+        <chegada>16:01:00</chegada>
+        <origem>AMS</origem>
+        <destino>ZRH</destino>
+    </voo>
+    <voo id="SQ99">
+        <capacidade>150</capacidade>
+        <data>2021-08-30</data>
+        <partida>09:07:00</partida>
+        <chegada>13:10:00</chegada>
+        <origem>AMS</origem>
+        <destino>MSW</destino>
+    </voo>
+    <voo id="LH1200">
+        <capacidade>160</capacidade>
+        <data>2021-09-20</data>
+        <partida>13:07:00</partida>
+        <chegada>17:05:00</chegada>
+        <origem>AMS</origem>
+        <destino>MSW</destino>
+    </voo>
+    <voo id="LH1210">
+        <capacidade>200</capacidade>
+        <data>2021-08-30</data>
+        <partida>11:08:00</partida>
+        <chegada>19:20:00</chegada>
+        <origem>AMS</origem>
+        <destino>SPL</destino>
+    </voo>
+    <voo id="LH1220">
+        <capacidade>200</capacidade>
+        <data>2021-08-30</data>
+        <partida>12:08:00</partida>
+        <chegada>14:08:00</chegada>
+        <origem>AMS</origem>
+        <destino>PRG</destino>
+    </voo>
+
+    <voo id="LH1230">
+        <capacidade>100</capacidade>
+        <data>2021-12-24</data>
+        <partida>06:00:00</partida>
+        <chegada>10:01:00</chegada>
+        <origem>NPL</origem>
+        <destino>AMS</destino>
+    </voo>
+    <voo id="LH1240">
+        <capacidade>100</capacidade>
+        <data>2021-08-30</data>
+        <partida>06:20:00</partida>
+        <chegada>10:01:00</chegada>
+        <origem>NPL</origem>
+        <destino>ZRH</destino>
+    </voo>
+    <voo id="LH1250">
+        <capacidade>100</capacidade>
+        <data>2021-12-24</data>
+        <partida>06:37:00</partida>
+        <chegada>11:14:00</chegada>
+        <origem>NPL</origem>
+        <destino>MSW</destino>
+    </voo>
+    <voo id="LH1260">
+        <capacidade>190</capacidade>
+        <data>2021-12-24</data>
+        <partida>08:15:00</partida>
+        <chegada>10:01:00</chegada>
+        <origem>NPL</origem>
+        <destino>AMS</destino>
+    </voo>
+    <voo id="TP1301">
+        <capacidade>100</capacidade>
+        <data>2021-09-13</data>
+        <partida>10:40:00</partida>
+        <chegada>19:01:00</chegada>
+        <origem>NPL</origem>
+        <destino>SPL</destino>
+    </voo>
+    <voo id="TP1302">
+        <capacidade>180</capacidade>
+        <data>2021-12-24</data>
+        <partida>14:20:00</partida>
+        <chegada>23:11:00</chegada>
+        <origem>NPL</origem>
+        <destino>SPL</destino>
+    </voo>
+    <voo id="TP1303">
+        <capacidade>130</capacidade>
+        <data>2021-08-30</data>
+        <partida>17:17:00</partida>
+        <chegada>23:59:00</chegada>
+        <origem>NPL</origem>
+        <destino>SPL</destino>
+    </voo>
+    <voo id="TP1304">
+        <capacidade>100</capacidade>
+        <data>2021-08-30</data>
+        <partida>17:20:00</partida>
+        <chegada>23:00:00</chegada>
+        <origem>NPL</origem>
+        <destino>SPL</destino>
+    </voo>
+    <voo id="TP1035">
+        <capacidade>100</capacidade>
+        <data>2021-12-24</data>
+        <partida>08:40:00</partida>
+        <chegada>10:01:00</chegada>
+        <origem>NPL</origem>
+        <destino>SPL</destino>
+    </voo>
+    <voo id="TP1306">
+        <capacidade>200</capacidade>
+        <data>2021-12-24</data>
+        <partida>13:18:00</partida>
+        <chegada>16:15:00</chegada>
+        <origem>NPL</origem>
+        <destino>MSW</destino>
+    </voo>
+
+    <voo id="TP1400">
+        <capacidade>200</capacidade>
+        <data>2021-08-30</data>
+        <partida>17:10:00</partida>
+        <chegada>23:55:00</chegada>
+        <origem>MSW</origem>
+        <destino>SPL</destino>
+    </voo>
+</voos>
+<!--  ============================================  -->
+<!--  PASSAGEIROS                                   -->
+<!--  ============================================  -->
+<passageiros>
+    <passageiro>
+        <nome>Abel Noronha</nome>
+        <numeroPassaporte>123456</numeroPassaporte>
+        <pais>Portugal</pais>
+    </passageiro>
+    <passageiro>
+        <nome>Cláudia Santos</nome>
+        <numeroPassaporte>123457</numeroPassaporte>
+        <pais>Brasil</pais>
+    </passageiro>
+    <passageiro>
+        <nome>Aníbal Sousa</nome>
+        <numeroPassaporte>888866</numeroPassaporte>
+        <pais>Portugal</pais>
+    </passageiro>
+    <passageiro>
+        <nome>Maria Ramos</nome>
+        <numeroPassaporte>7654321</numeroPassaporte>
+        <pais>Portugal</pais>
+    </passageiro>
+    <passageiro>
+        <nome>Pablo Rodriguez</nome>
+        <numeroPassaporte>000111</numeroPassaporte>
+        <pais>Espanha</pais>
+    </passageiro>
+    <passageiro>
+        <nome>Matteo Rossi</nome>
+        <numeroPassaporte>000112</numeroPassaporte>
+        <pais>Itália</pais>
+    </passageiro>
+    <passageiro>
+        <nome>Pietra Ferrari</nome>
+        <numeroPassaporte>000113</numeroPassaporte>
+        <pais>Itália</pais>
+    </passageiro>
+    <passageiro>
+        <nome>Santa Claus</nome>
+        <numeroPassaporte>000114</numeroPassaporte>
+        <pais>Finlândia</pais>
+        <refVoo>TP1035</refVoo>
+    </passageiro>
+</passageiros>
+<!--  ============================================  -->
+<!--  RESERVAS                                      -->
+<!--  ============================================  -->
+<reservas>
+    <reserva id="1" passaporte="000112" voo="FR174">
+        <data>2021-07-20</data>
+        <preco>100</preco>
+    </reserva>
+    <reserva id="2" passaporte="123456" voo="TP306">
+        <data>2021-10-06</data>
+        <preco>100</preco>
+    </reserva>
+    <reserva id="3" passaporte="123457" voo="TP30">
+        <data>2021-03-12</data>
+        <preco>100</preco>
+    </reserva>
+    <reserva id="4" passaporte="888866" voo="SQ95">
+        <data>2021-07-20</data>
+        <preco>100</preco>
+    </reserva>
+    <reserva id="5" passaporte="7654321" voo="LH1200">
+        <data>2021-08-02</data>
+        <preco>100</preco>
+    </reserva>
+    <reserva id="6" passaporte="000111" voo="TP1301">
+        <data>2021-06-04</data>
+        <preco>100</preco>
+    </reserva>
+    <reserva id="7" passaporte="000113" voo="AA620">
+        <data>2021-05-11</data>
+        <preco>100</preco>
+    </reserva>
+    <reserva id="8" passaporte="000114" voo="TP1035">
+        <data>2021-10-28</data>
+        <preco>100</preco>
+    </reserva>
+    <reserva id="9" passaporte="000114" voo="FR174">
+        <data>2021-08-14</data>
+        <preco>100</preco>
+    </reserva>
+    <reserva id="10" passaporte="000115" voo="FR174">
+        <data>2021-08-14</data>
+    </reserva>
+</reservas>
+</doc>

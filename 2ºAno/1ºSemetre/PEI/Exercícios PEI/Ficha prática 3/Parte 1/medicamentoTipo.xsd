@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.HospitalDaEstg.pt/medicamento"
+            xmlns="http://www.HospitalDaEstg.pt/medicamento"
+            elementFormDefault="qualified"> 
+            <!-- completar -->
+
+    <xs:simpleType name="nomeTipo">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="50" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="dosagemTipo">
+        <xs:simpleContent>
+            <xs:extension base="xs:integer">
+                <xs:attribute name="unidade">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="mg" />
+                            <xs:enumeration value="g" />
+                            <xs:enumeration value="mg/mL" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+</xs:schema>

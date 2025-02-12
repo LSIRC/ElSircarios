@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns="http://www.FaturaEstg.pt/produto"
+            targetNamespace="http://www.FaturaEstg.pt/produto"
+            elementFormDefault="qualified">
+
+    <xs:simpleType name="nomeTipo">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="5"></xs:minLength>
+            <xs:maxLength value="35"></xs:maxLength>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="quantidadeTipo">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+    
+    <xs:simpleType name="ivaTipo">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([0-9]{1,2}|100)%"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:complexType name="preco_unitarioTipo">
+        <xs:simpleContent>
+            <xs:extension base="xs:float">
+                <xs:attribute name="unidade">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="€"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+</xs:schema>

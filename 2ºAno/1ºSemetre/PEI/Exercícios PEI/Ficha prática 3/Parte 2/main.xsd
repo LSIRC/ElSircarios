@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns:cli="http://www.FaturaEstg.pt/cliente"
+            xmlns:pro="http://www.FaturaEstg.pt/produto"
+            targetNamespace="http://www.FaturaEstg.pt/main"
+            elementFormDefault="qualified">
+    
+            <xs:import namespace="http://www.FaturaEstg.pt/cliente" schemaLocation="cliente.xsd"/>
+            <xs:import namespace="http://www.FaturaEstg.pt/produto" schemaLocation="produto.xsd"/>
+    
+    <!-- incluir ficheiros XSD -->
+
+<xs:element name="fatura">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="numero">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="1000000"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="data" type="xs:date"/>
+            <xs:element name="tipo_pagamento">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="tipo">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="multibanco"/>
+                                        <xs:enumeration value="transferencia"/>
+                                        <xs:enumeration value="mb-way"/>
+                                        <xs:enumeration value="dinheiro"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:attribute>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            
+            <xs:element name="cliente">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nome" type="cli:nomeTipo"/>
+                        <xs:element name="nif" type="cli:nifTipo"/>
+                        <xs:element name="morada" type="cli:moradaTipo"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="produtos">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="produto" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="nome" type="pro:nomeTipo"/>
+                                    <xs:element name="quantidade" type="pro:quantidadeTipo"/>
+                                    <xs:element name="iva" type="pro:ivaTipo"/>
+                                    <xs:element name="preco_unitario" type="pro:preco_unitarioTipo"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- definir Fatura -->
+</xs:element>
+
+</xs:schema>

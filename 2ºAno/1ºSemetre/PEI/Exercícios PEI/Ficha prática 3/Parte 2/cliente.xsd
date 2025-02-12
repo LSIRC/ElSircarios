@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.FaturaEstg.pt/cliente"
+            xmlns="http://www.FaturaEstg.pt/cliente"
+            elementFormDefault="qualified">
+    
+        
+    
+        <xs:complexType name="tipo_pagamentos">
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="tipo_pagamento">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="multibanco"/>
+                                <xs:enumeration value="transferencia"/>
+                                <xs:enumeration value="mb-way"/>
+                                <xs:enumeration value="dinheiro"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+
+        <xs:simpleType name="nomeTipo">
+            <xs:restriction base="xs:string">
+                <xs:maxLength value="150"/>
+            </xs:restriction>
+        </xs:simpleType>
+    
+        <xs:simpleType name="nifTipo">
+            <xs:restriction base="xs:string">
+                <xs:pattern value="\d{9}" />
+            </xs:restriction>
+        </xs:simpleType>
+    
+        <xs:simpleType name="moradaTipo">
+            <xs:restriction base="xs:string">
+                <xs:maxLength value="150"/>
+            </xs:restriction>
+        </xs:simpleType>
+        
+        
+        <!-- definir Cliente -->
+    
+</xs:schema>

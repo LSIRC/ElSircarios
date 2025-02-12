@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+            xmlns:med="http://www.HospitalDaEstg.pt/medico"
+            xmlns:medi="http://www.HospitalDaEstg.pt/medicamento"
+            xmlns:paci="http://www.HospitalDaEstg.pt/paciente"
+            targetNamespace="http://www.HospitalDaEstg.pt/main"
+            elementFormDefault="qualified"> 
+           <!-- completar -->
+    
+            <xs:import schemaLocation="medicoTipo.xsd" namespace="http://www.HospitalDaEstg.pt/medico"/>
+            <xs:import schemaLocation="medicamentoTipo.xsd" namespace="http://www.HospitalDaEstg.pt/medicamento"/>
+            <xs:import schemaLocation="pacienteTipo.xsd" namespace="http://www.HospitalDaEstg.pt/paciente"/>
+
+<!-- importar os xsd necessários -->
+
+    <xs:element name="prescricao">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="data" type="xs:date"/>
+
+                <xs:element name="medico" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="med:nomeTipo"/>
+                            <xs:element name="especialidade" type="med:especialidadeTipo"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                    <!-- incluir o nome e a especialidade do médico-->
+                </xs:element>
+
+                <xs:element name="paciente">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="paci:nomeTipo"/>
+                            <xs:element name="genero" type="paci:generoTipo"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                    <!-- incluir o nome e o género do paciente -->
+                </xs:element>
+
+                <xs:element name="medicamentos" >
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="medicamento" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nome" type="medi:nomeTipo"/>
+                                        <xs:element name="dosagem" type="medi:dosagemTipo"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                                <!-- incluir o nome e a dosagem do medicamento -->
+                                <!-- nota: numa prescrição podem ser acrescentados vários medicamentos-->
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

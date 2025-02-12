@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <book category="COOKING">
+        <title lang="en">Everyday Italian</title>
+        <author>Giada De Laurentiis</author>
+        <year>2005</year>
+        <price>30.00</price>
+    </book>
+    <book category="CHILDREN">
+        <title lang="en">Harry Potter</title>
+        <author>J K. Rowling</author>
+        <year>2005</year>
+        <price>29.99</price>
+    </book>
+    <book category="WEB">
+        <title lang="en-us">XQuery Kick Start</title>
+        <author>James McGovern</author>
+        <year>2003</year>
+        <price>49.99</price>
+    </book>
+    <book category="WEB">
+        <title lang="en-us">Learning XML</title>
+        <author>Erik T. Ray</author>
+        <year>2003</year>
+        <price>39.95</price>
+    </book>
+    <book category="WEB">
+        <title lang="en-us">MongoDB: The Definitive Guide</title>
+        <authors>
+            <author>Kristina Chodorow</author>
+            <author>Michael Dirolf</author>
+        </authors>
+        <year>2010</year>
+        <price>51.25</price>
+    </book>
+    <book category="ROMANCE">
+        <title lang="en-us">XML In A Nutshell</title>
+        <authors>
+            <author>Elliotte Rusty Harold</author>
+            <author>W. Scott Means</author>
+        </authors>
+        <year>2001</year>
+        <price>9.95</price>
+    </book>
+    <book category="COOKING">
+        <title lang="pt-pt">30 Dias para Mudar de Vida, Detox Paleo</title>
+        <author>Joana Moura</author>
+        <year>2016</year>
+        <price>12.79</price>
+    </book>
+    <book category="CHILDREN">
+        <title lang="en">I Wish You More</title>
+        <author>Amy Krouse Rosenthal</author>
+        <year>2015</year>
+        <price>12.95</price>
+    </book>
+</bookstore>

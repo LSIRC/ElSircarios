@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"> 
+    <xs:element name="Restaurante">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="tipo">
+                    <xs:complexType>
+                        <xs:choice>
+                            <xs:element name="italiano" type="xs:string"></xs:element>
+                            <xs:element name="japonês" type="xs:string"></xs:element>
+                            <xs:element name="mexicano" type="xs:string"></xs:element>
+                        </xs:choice>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="nome" type="xs:string"></xs:element>
+                <xs:element name="capacidade" type="xs:integer"></xs:element>
+                <xs:element name="localidade" type="xs:string"></xs:element>
+                <xs:element name="telefone">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:length value="9"></xs:length>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="email">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="([A-Za-z0-9._%+-]+)@([A-Za-z0-9.-]+\.[A-Za-z]{2,})"></xs:pattern>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
