@@ -1,0 +1,49 @@
+group: Escola 
+
+
+Alunos = {
+	Numero:number, Nome:string, DataNasc:date, Localidade:string, Curso:string, Ano:number
+	800010, 'Joao Paulo', 1980-01-20, Felgueiras, CE, 1
+	800100, 'Ana Isabel', 1982-04-10, Valongo, CE, 1
+	801005, 'Pedro Miguel', 1978-10-06, Valongo, EI, 2
+	802012, 'Joana Faria', 1980-05-25, Porto, EI, 1
+	800001, 'Carlos Alberto', 1981-08-25, Braga, CE, 2
+}
+
+Cursos = {
+	Curso:string, Designacao:string
+	CE, 'Ciencias Empresariais'
+	EI, 'Eng. Informática'
+	RH, 'Recursos Humanos'
+}
+
+Disciplinas = {
+	Codigo:number, Curso:string, Ano:number, Disciplina:string
+	1, CE, 1, MicroEconomia
+	2, CE, 1, Seminario
+	3, CE, 1, Matematica
+	1, CE, 2, Sociologia
+	2, CE, 2, MacroEconomia
+	3, CE, 2, Metodos
+	1, EI, 1, Fisica
+	2, EI, 1, AED
+	3, EI, 1, Matematica
+	1, EI, 2, FRC
+	2, EI, 2, LADS
+	3, EI, 2, 'Sistemas Computacao'
+}
+
+Notas = {
+	Numero:number, Codigo:number, Curso:string, Ano:number, Nota:number
+	800010, 1, CE, 1, 12
+	800010, 2, CE, 1, 13
+	800100, 1, CE, 1, 14
+	800100, 2, CE, 1, 12
+	801005, 3, EI, 2, 13
+	801005, 2, EI, 2, 15
+	801005, 1, EI, 2, 14
+	802012, 1, EI, 1, 16
+	800001, 1, CE, 2, 16
+	800001, 2, CE, 2, 16
+	800001, 3, CE, 2, 8
+}
